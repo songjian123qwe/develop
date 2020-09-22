@@ -1,0 +1,22 @@
+{
+  "10140REFCO-000004" : "Refreshed.",
+  "10140REFCO-000015" : "List ",
+  "10140REFCO-000005" : "No default reference",
+  "10140REFCO-000016" : "Doc Linked Query",
+  "10140REFCO-000006" : "No lightweight default reference for the file. Please query in NC client",
+  "10140REFCO-000017" : "Title",
+  "10140REFCO-000007" : "File Type",
+  "10140REFCO-000018" : "No Info about the referenced Doc",
+  "10140REFCO-000008" : "File",
+  "10140REFCO-000019" : "Please select data",
+  "10140REFCO-000009" : "Ref Data",
+  "10140REFCO-000010" : "Not found",
+  "10140REFCO-000000" : "File type and file are required",
+  "10140REFCO-000011" : "The file",
+  "10140REFCO-000001" : "Query succeeded, {count} records in total",
+  "10140REFCO-000012" : "Please check reference path",
+  "10140REFCO-000002" : "en_i",
+  "10140REFCO-000013" : "File Reference Query",
+  "10140REFCO-000003" : "No qualified data found",
+  "10140REFCO-000014" : "File Reference Table"
+}

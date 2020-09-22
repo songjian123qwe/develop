@@ -1,0 +1,17 @@
+{
+  "10140ACCAB-000007" : "Are you sure you wish to delete the selected data?",
+  "10140ACCAB-000008" : "Refreshed.",
+  "10140ACCAB-000009" : "Saved successfully.",
+  "10140ACCAB-000000" : "Are you sure you want to delete this?",
+  "10140ACCAB-000001" : "Action",
+  "10140ACCAB-000012" : "In line {count}, the length of entry should be greater than the precision value",
+  "10140ACCAB-000002" : "Deleted successfully.",
+  "10140ACCAB-000013" : "The entered value must be between [1,200]",
+  "10140ACCAB-000003" : "Cancel",
+  "10140ACCAB-000014" : "The entered value must be between [0,8]",
+  "10140ACCAB-000004" : "Are you sure you wish to cancel?",
+  "10140ACCAB-000015" : "Please enter code or name to filter",
+  "10140ACCAB-000005" : "Please select the data to be deleted.",
+  "10140ACCAB-000016" : "Auxiliary Accounting Items",
+  "10140ACCAB-000006" : "Delete"
+}

@@ -1,0 +1,21 @@
+{
+  "10140WCR-000010" : "Confirm Cancellation",
+  "10140WCR-000000" : "Workday Calendar Rules",
+  "10140WCR-000011" : "Are you sure you wish to cancel?",
+  "10140WCR-000001" : "Please select the node to edit",
+  "10140WCR-000012" : "Saved successfully.",
+  "10140WCR-000002" : "In the organization node, you can only modify the data of organizations which have the permissions of the current node.",
+  "10140WCR-000013" : "Refreshed.",
+  "10140WCR-000003" : "Confirm to delete the selected data?",
+  "10140WCR-000014" : "Generate Workday Calendar",
+  "10140WCR-000004" : "Confirm Deletion",
+  "10140WCR-000015" : "Workday Calendar Rules - Global",
+  "10140WCR-000005" : "OK",
+  "10140WCR-000016" : "Workday Calendar Rules - BU",
+  "10140WCR-000006" : "Cancel",
+  "10140WCR-000017" : "Please note",
+  "10140WCR-000007" : "Delete successful.",
+  "10140WCR-000018" : "Global data can only be maintained in the global node.",
+  "10140WCR-000008" : "Prompt",
+  "10140WCR-000009" : "Please select a business unit."
+}

@@ -1,0 +1,23 @@
+{
+  "10140TRANS-000020" : "Display Disabled",
+  "10140TRANS-000010" : "Delete",
+  "10140TRANS-000000" : "Are you sure you want to delete this?",
+  "10140TRANS-000011" : "Are you sure you wish to delete the selected data?",
+  "10140TRANS-000001" : "Action",
+  "10140TRANS-000012" : "Refreshed.",
+  "10140TRANS-000002" : "Deleted successfully.",
+  "10140TRANS-000013" : "Developing...",
+  "10140TRANS-000003" : "Are you sure you want to delete this?",
+  "10140TRANS-000014" : "Please enter transaction code to filter",
+  "10140TRANS-000004" : "Country/region is required",
+  "10140TRANS-000015" : "Delete",
+  "10140TRANS-000005" : "Cancel",
+  "10140TRANS-000016" : "Are you sure you wish to delete the selected data?",
+  "10140TRANS-000006" : "Are you sure you wish to cancel?",
+  "10140TRANS-000017" : "Confirm",
+  "10140TRANS-000007" : "No data to save",
+  "10140TRANS-000018" : "Close",
+  "10140TRANS-000008" : "Saved successfully.",
+  "10140TRANS-000019" : "Transaction Code",
+  "10140TRANS-000009" : "Please select the data to be deleted."
+}

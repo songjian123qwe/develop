@@ -1,0 +1,23 @@
+{
+  "10140VTB-000009" : "Deleted successfully.",
+  "10140VTB-000020" : "Display Disabled",
+  "10140VTB-000010" : "In the organization node, you can only modify the data of organizations which have the permissions of the current node.",
+  "10140VTB-000000" : "Cancel",
+  "10140VTB-000011" : "Group node can only maintain the data of the current logon group.",
+  "10140VTB-000001" : "Are you sure you wish to cancel?",
+  "10140VTB-000012" : "Global data can only be maintained in the global node",
+  "10140VTB-000002" : "Refreshed.",
+  "10140VTB-000013" : "Enabled successfully.",
+  "10140VTB-000003" : "Saved successfully.",
+  "10140VTB-000014" : "Disabled successfully.",
+  "10140VTB-000004" : "Please select the data to be deleted.",
+  "10140VTB-000015" : "Please enter a financial accounting book first.",
+  "10140VTB-000005" : "Confirm Deletion",
+  "10140VTB-000016" : "Voucher Category - Global",
+  "10140VTB-000006" : "Confirm to delete the selected data?",
+  "10140VTB-000017" : "Voucher Category - Accounting Book ",
+  "10140VTB-000007" : "Are you sure you want to delete this?",
+  "10140VTB-000018" : "Voucher Category - Group",
+  "10140VTB-000008" : "Action",
+  "10140VTB-000019" : "Please enter code or name to filter"
+}

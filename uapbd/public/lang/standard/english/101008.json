@@ -1,0 +1,20 @@
+{
+  "101008-000010" : "Deleted successfully.",
+  "101008-000000" : "Monthly Closing Inspection Char.",
+  "101008-000011" : "Refreshed.",
+  "101008-000001" : "Monthly Closing Inspection Char. Category",
+  "101008-000012" : "Yes",
+  "101008-000002" : "This is not a module node. Cannot add categories",
+  "101008-000013" : "Cancel",
+  "101008-000003" : "Please select the node to edit",
+  "101008-000014" : "Are you sure you wish to cancel?",
+  "101008-000004" : "Please select the node to delete",
+  "101008-000015" : "Save",
+  "101008-000005" : "Root node cannot be deleted",
+  "101008-000016" : "Cancel",
+  "101008-000006" : "Delete",
+  "101008-000017" : "Save Successful.",
+  "101008-000007" : "Confirm to delete the selected data?",
+  "101008-000008" : "A business reference verification must be performed when deleting. This may take some time. Confirm to delete?",
+  "101008-000009" : "Data has been referenced, and cannot be deleted"
+}
