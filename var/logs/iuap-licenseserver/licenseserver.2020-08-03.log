@@ -1,0 +1,17 @@
+2020-08-03 14:31:29.083 [] [] [localhost-startStop-1] WARN  c.y.i.licenseserver.utils.EnvUtils - Redis store type:[null] not found, use PBE instead.
+2020-08-03 14:31:29.354 [] [] [localhost-startStop-1] INFO  c.y.i.l.u.WebServletContextListener - Redis storage type:PBE:PBE加解密
+2020-08-03 14:31:29.935 [] [] [localhost-startStop-1] WARN  o.a.c.retry.ExponentialBackoffRetry - maxRetries too large (2147483647). Pinning to 29
+2020-08-03 14:31:30.013 [] [] [localhost-startStop-1] INFO  o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2020-08-03 14:31:30.039 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - regist network card info to zookeeper.
+2020-08-03 14:31:30.065 [] [] [localhost-startStop-1-EventThread] INFO  o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+2020-08-03 14:31:30.279 [] [] [localhost-startStop-1] INFO  c.y.i.licenseserver.utils.EnvUtils - Env NCHome:/LicenseServer/, NCHomePath:D:\LicenseServer
+2020-08-03 14:31:30.293 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - add networkcard wlan2/Intel(R) Wi-Fi 6 AX201 160MHz, virtual:false, loopback:false, up:true, pointToPoint:false, isNameVirtual:false
+2020-08-03 14:31:30.538 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - final regist networks:Intel(R) Wi-Fi 6 AX201 160MHz!E4-5E-37-39-D8-9D,
+2020-08-03 14:31:30.743 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.ServerLicenseService - 监听/ServerLicense/ImportLicense节点
+2020-08-03 14:31:30.745 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.ServerLicenseService - 监听/ServerLicense/RemoveLicense节点
+2020-08-03 14:31:30.936 [] [] [refreshLicenseToRedis] INFO  o.s.m.n.redis.pool.JedisPoolBuilder - Building JedisDirectPool, on redis server 127.0.0.1:6070
+2020-08-03 14:31:31.143 [] [] [refreshLicenseToRedis] INFO  c.y.i.l.utils.PBEJedisImpl - host:127.0.0.1, port:6070, timeout:2000
+2020-08-03 14:31:37.412 [] [] [http-nio-7080-exec-6] INFO  c.y.i.l.utils.SpringMVCUtils - 请求参数信息：{"identifier":"E4-5E-37-39-D8-9D","hostName":"LAPTOP-J5H9BTEK","productCode":"052001","errflag":"true","lastts":"1596436297402"}
+2020-08-03 14:31:37.424 [] [] [http-nio-7080-exec-6] ERROR c.y.i.l.service.TimeawareService - 客户端比服务器端时间快了62小时.
+2020-08-03 14:31:37.425 [] [] [http-nio-7080-exec-6] ERROR c.y.i.l.web.CPULicenseController - 服务器状态非法.
+2020-08-03 14:31:53.098 [] [] [http-nio-7080-exec-7] INFO  c.y.i.l.utils.SpringMVCUtils - 请求参数信息：{"identifier":"E4-5E-37-39-D8-9D","hostName":"LAPTOP-J5H9BTEK","productCode":"052001","errflag":"true","lastts":"1596436313093"}
