@@ -1,8 +1,0 @@
-在友空间中，原生导航栏引入图标说明：
-文件来源：
-  icon来源于字体库，命名和字体库里同名
-  下载的时候成尺寸是88*88，color:#555555
-  下载后存放文件的路径：static/img/icon
-  如果有特殊颜色的图标，需要单独重新下载一个文件
-引用路径：
-  location.origin+'/wap/static/img/icon/hr-share.png'

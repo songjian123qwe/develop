@@ -1,0 +1,34 @@
+2020-08-04 07:44:51.095 [] [] [localhost-startStop-1] WARN  c.y.i.licenseserver.utils.EnvUtils - Redis store type:[null] not found, use PBE instead.
+2020-08-04 07:44:51.476 [] [] [localhost-startStop-1] INFO  c.y.i.l.u.WebServletContextListener - Redis storage type:PBE:PBE加解密
+2020-08-04 07:44:52.207 [] [] [localhost-startStop-1] WARN  o.a.c.retry.ExponentialBackoffRetry - maxRetries too large (2147483647). Pinning to 29
+2020-08-04 07:44:52.300 [] [] [localhost-startStop-1] INFO  o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2020-08-04 07:44:52.333 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - regist network card info to zookeeper.
+2020-08-04 07:44:52.366 [] [] [localhost-startStop-1-EventThread] INFO  o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+2020-08-04 07:44:52.653 [] [] [localhost-startStop-1] INFO  c.y.i.licenseserver.utils.EnvUtils - Env NCHome:/LicenseServer/, NCHomePath:D:\LicenseServer
+2020-08-04 07:44:52.670 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - add networkcard wlan2/Intel(R) Wi-Fi 6 AX201 160MHz, virtual:false, loopback:false, up:true, pointToPoint:false, isNameVirtual:false
+2020-08-04 07:44:52.988 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - final regist networks:Intel(R) Wi-Fi 6 AX201 160MHz!E4-5E-37-39-D8-9D,
+2020-08-04 07:44:53.248 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.ServerLicenseService - 监听/ServerLicense/ImportLicense节点
+2020-08-04 07:44:53.250 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.ServerLicenseService - 监听/ServerLicense/RemoveLicense节点
+2020-08-04 07:44:53.479 [] [] [refreshLicenseToRedis] INFO  o.s.m.n.redis.pool.JedisPoolBuilder - Building JedisDirectPool, on redis server 127.0.0.1:6070
+2020-08-04 07:44:53.754 [] [] [refreshLicenseToRedis] INFO  c.y.i.l.utils.PBEJedisImpl - host:127.0.0.1, port:6070, timeout:2000
+2020-08-04 07:45:24.361 [] [] [http-nio-7080-exec-4] INFO  c.y.i.l.utils.SpringMVCUtils - 请求参数信息：{"identifier":"E4-5E-37-39-D8-9D","hostName":"LAPTOP-J5H9BTEK","productCode":"052001","errflag":"true","lastts":"1596498324348"}
+2020-08-04 17:29:11.826 [] [] [localhost-startStop-1] WARN  c.y.i.licenseserver.utils.EnvUtils - Redis store type:[null] not found, use PBE instead.
+2020-08-04 17:29:12.211 [] [] [localhost-startStop-1] INFO  c.y.i.l.u.WebServletContextListener - Redis storage type:PBE:PBE加解密
+2020-08-04 17:29:12.952 [] [] [localhost-startStop-1] WARN  o.a.c.retry.ExponentialBackoffRetry - maxRetries too large (2147483647). Pinning to 29
+2020-08-04 17:29:13.045 [] [] [localhost-startStop-1] INFO  o.a.c.f.imps.CuratorFrameworkImpl - Starting
+2020-08-04 17:29:13.077 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - regist network card info to zookeeper.
+2020-08-04 17:29:13.123 [] [] [localhost-startStop-1-EventThread] INFO  o.a.c.f.state.ConnectionStateManager - State change: CONNECTED
+2020-08-04 17:29:13.412 [] [] [localhost-startStop-1] INFO  c.y.i.licenseserver.utils.EnvUtils - Env NCHome:/LicenseServer/, NCHomePath:D:\LicenseServer
+2020-08-04 17:29:13.429 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - add networkcard wlan2/Intel(R) Wi-Fi 6 AX201 160MHz, virtual:false, loopback:false, up:true, pointToPoint:false, isNameVirtual:false
+2020-08-04 17:29:13.755 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.NetworkCardService - final regist networks:Intel(R) Wi-Fi 6 AX201 160MHz!E4-5E-37-39-D8-9D,
+2020-08-04 17:29:14.008 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.ServerLicenseService - 监听/ServerLicense/ImportLicense节点
+2020-08-04 17:29:14.009 [] [] [localhost-startStop-1] INFO  c.y.i.l.service.ServerLicenseService - 监听/ServerLicense/RemoveLicense节点
+2020-08-04 17:29:14.224 [] [] [refreshLicenseToRedis] INFO  o.s.m.n.redis.pool.JedisPoolBuilder - Building JedisDirectPool, on redis server 127.0.0.1:6070
+2020-08-04 17:29:14.511 [] [] [refreshLicenseToRedis] INFO  c.y.i.l.utils.PBEJedisImpl - host:127.0.0.1, port:6070, timeout:2000
+2020-08-04 17:41:12.646 [] [] [refreshLicenseToRedis] INFO  c.y.i.l.utils.PBEJedisImpl - host:127.0.0.1, port:6070, timeout:2000
+2020-08-04 18:01:10.194 [] [] [refreshLicenseToRedis] INFO  c.y.i.l.utils.PBEJedisImpl - host:127.0.0.1, port:6070, timeout:2000
+2020-08-04 18:14:40.236 [] [] [localhost-startStop-1-EventThread] INFO  o.a.c.f.state.ConnectionStateManager - State change: SUSPENDED
+2020-08-04 18:14:41.449 [] [] [localhost-startStop-1-EventThread] INFO  o.a.c.f.state.ConnectionStateManager - State change: LOST
+2020-08-04 18:14:41.449 [] [] [localhost-startStop-1-EventThread] WARN  org.apache.curator.ConnectionState - Session expired event received
+2020-08-04 18:14:41.453 [] [] [localhost-startStop-1-EventThread] INFO  o.a.c.f.state.ConnectionStateManager - State change: RECONNECTED
+2020-08-04 18:22:32.718 [] [] [refreshLicenseToRedis] INFO  c.y.i.l.utils.PBEJedisImpl - host:127.0.0.1, port:6070, timeout:2000
