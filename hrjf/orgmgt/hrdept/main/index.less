@@ -1,0 +1,87 @@
+.hrDeptPage{
+  .header{
+    justify-content: space-between;
+    .backButton{
+      i{
+        margin-right: 10px;
+      }
+    }
+  }
+  .tree-card{
+    .tree-area{
+      position: relative;
+
+      .treeAreaEditCover{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+      }
+    }
+    .card-area{
+      padding-left: 0;
+      padding-right: 0;
+      .tabs-box{
+        box-sizing: border-box;
+        &.orgmanagers{
+          position: relative;
+          .u-tabs-top{
+            .u-tabs-content{
+              .u-tabs-tabpane{
+                margin: 10px 0;
+                border: 1px solid #D3D3D3;
+                border-top: 0;
+              }
+            }
+          }
+        }
+        .ncTabWarp{
+          .u-tabs-top{
+            overflow-y: hidden;
+            padding-bottom: 10px;
+            width: calc(~'100% - 400px');
+            .u-tabs-bar{
+              .u-tabs-nav-container{
+                padding-left: 0;
+              }
+            }
+            .u-tabs-nav-wrap{
+              border-bottom: 1px solid #d3d3d3;
+            }
+            .u-tabs-content-animated{
+              transition: none 0s ease 0s;
+            }
+            .u-tabs-content{
+              display: none;
+              .u-tabs-tabpane{
+                overflow: hidden;
+              }
+            }
+          }
+        }
+
+      }
+      // 隐藏table 放大按钮
+      .tabs-header-spread {
+        .tabs-operation{
+          display: none;
+        }
+      }
+    }
+  }
+  .footer{
+    //display: flex;
+    display: none;
+    justify-content: flex-end;
+    clear: both;
+    padding: 20px;
+    z-index: 1;
+    width: 100%;
+    border-top: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 3px 3px 0 0;
+  }
+}

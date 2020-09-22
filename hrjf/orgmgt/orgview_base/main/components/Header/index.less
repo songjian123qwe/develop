@@ -1,0 +1,33 @@
+.header {
+    .header-tabs {
+        padding-left: 0;
+        position: relative;
+        margin: 0;
+        float: left;
+        list-style: none;
+        display: inline-block;
+        .tab {
+            height: 40px;
+            line-height: 40px;
+            padding: 0;
+            color: #555555;
+            margin-right: 20px;
+            position: relative;
+            display: block;
+            cursor: pointer;
+            float: left;
+            span {
+                background-color: #e14c46;
+                height: 2px;
+                display: none;
+            }
+        }
+        .tab.active {
+            color: #e14c46;
+            border-bottom-color: #e14c46;
+            span {
+                display: block;
+            }
+        }
+    }
+}

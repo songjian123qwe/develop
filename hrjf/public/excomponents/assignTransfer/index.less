@@ -1,0 +1,51 @@
+.wrap{
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+}
+.wrap::-webkit-scrollbar{/*整个滚动条区域的宽度*/
+    width:8px;
+}
+.wrap::-webkit-scrollbar-button{/*滚动条上下两边的按钮*/
+    display:none;
+}
+.wrap::-webkit-scrollbar-thumb{/*真滚动条样式*/
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.34);
+    border-radius: 100px ;
+}
+.wrap::-webkit-scrollbar-track {/*滚动条滚动的轨道*/
+    display: none;
+}
+.menuBox{
+    float: left;
+    height: 100%;
+    border: 1px solid #ccc;
+    // border-bottom: 1px solid #ccc;
+    margin-right: 5px;
+    overflow-y: auto;
+    .menuContent{
+        margin-top: -13px;
+        .u-menu-item{
+            padding-left: 15px !important;
+        }
+        .u-menu-item-selected.u-menu-item{
+            padding-left: 15px !important;
+        }
+        .u-checkbox .u-checkbox-label{
+            padding-left: 20px !important;
+        }
+        .u-menu.u-menu-root{
+            border: none;
+            box-shadow: none;
+            -webkit-box-shadow:none;
+            border-radius: 0px;
+        }
+    }
+}
+.textArea{
+    margin-top: 4px;
+}
+.u-transfer-list-content-item span{
+    padding-left: 0px !important;
+}

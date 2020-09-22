@@ -1,0 +1,33 @@
+.hrpostDetailPage {
+
+    color: #000;
+    background: #fff;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 2px 20px 0px #ededed;
+        .u-affix-content{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #fff;
+        }
+    }
+
+    // 隐藏分页
+    .cardTable-component-paginationDiv{
+        height: 0;
+
+        &>div{
+            display: none;
+        }
+    }
+
+    // 隐藏table 放大按钮
+    .tabs-header-spread {
+        .tabs-operation{
+            display: none;
+        }
+    }
+}

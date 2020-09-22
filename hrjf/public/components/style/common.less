@@ -1,0 +1,88 @@
+.fixBox() {
+    // 消除拖动问题
+    /*.u-modal-dialog {
+        height: 100% !important;
+
+        .u-modal-content {
+            height: 100%;
+        }
+
+        .u-modal-body {
+            height: calc(~'100% - 84px');
+
+        }
+    }*/
+}
+
+.uModalDialog() {
+    .fixBox();
+    .table-box, .outer-shift-box-table {
+        position: relative;
+        height: calc(~'100% - 0px');
+
+        & > div {
+            height: 100%;
+
+            & > div {
+                height: 100%;
+
+                & > div {
+                    height: 100%;
+
+                    & > div {
+                        height: 100%;
+
+                        & > div.lightapp-component-editTable {
+                            height: 100%;
+
+                            & > div {
+                                height: 100%;
+
+                                .u-table {
+                                    height: 100%;
+
+                                    .u-table-content {
+                                        height: 100%;
+                                        min-height: auto;
+
+                                        .u-table-scroll {
+                                            height: 100%;
+
+                                            & > div {
+                                                height: 100%;
+
+                                                & > div.u-table-body {
+                                                    min-height: calc(~'100% - 44px') !important;
+                                                    max-height: calc(~'100% - 44px') !important;
+                                                    overflow-y: auto !important;
+                                                }
+                                            }
+
+                                            & > div.u-table-placeholder {
+                                                transform: translate(0, 0);
+                                                left: calc(~'50% - 70px');
+                                                height: 26px;
+                                            }
+                                        }
+
+                                        .u-table-fixed-left {
+                                            height: 100%;
+                                            & > div {
+                                                height: 100%;
+                                                & > div.u-table-body-outer {
+                                                    min-height: calc(~'100% - 44px') !important;
+                                                    max-height: calc(~'100% - 44px') !important;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

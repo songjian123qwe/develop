@@ -1,0 +1,50 @@
+@import "../../../../public/components/style/common.less";
+.post-copy-modal {
+    .fixBox();
+    .copy-modal-warp{
+        height: calc(~'100% - 32px');
+        .first-step{
+            .chooseCopyDept{
+                display: flex;
+                align-items: center;
+                //justify-content: center;
+                padding: 20px 0;
+                &>div:nth-of-type(1){
+                    margin-right: 6px;
+                }
+                .refer-wrapper{
+                    width: auto;
+                }
+            }
+        }
+        .second-step{
+            height: 100%;
+            .table-box{
+                height: calc(~'100% - 50px');
+                overflow: hidden;
+            }
+        }
+        .third-step{
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+    .transfer-main {
+        border: none;
+        padding: 0;
+        .left-area, .right-area{
+            height: calc(~"100% - 28px");
+        }
+        .search-content{
+            display: none;
+        }
+    }
+    &.u-modal {
+        .u-modal-dialog{
+            width: 1170px;
+            .u-steps .u-steps-item{
+                width: 270px;
+            }
+        }
+    }
+}

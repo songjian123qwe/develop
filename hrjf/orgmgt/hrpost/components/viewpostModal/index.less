@@ -1,0 +1,21 @@
+@import "../../../../public/components/style/common.less";
+.view-post-container {
+    .fixBox();
+    .u-modal-dialog{
+        height: 100%;
+        max-width: 500px;
+        .u-modal-body{
+            height: calc(~'100% - 84px');
+            padding-bottom: 0;
+        }
+    }
+    .tree-box{
+        max-height: calc(~'100% - 30px');
+        overflow: auto;
+    }
+    .show-off{
+        height: 30px;
+        display: flex;
+        align-items: center;
+    }
+}

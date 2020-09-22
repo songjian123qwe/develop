@@ -1,0 +1,36 @@
+/*
+    基本档案型 单表 样式
+*/
+// 边框的基本配置
+@border:1px solid @border-color;
+.nc-bill-transferList{
+    background-color:#fff;
+    //background-image: url('../../../static/images/globalBackground.png');
+    .nc-bill-transferList-content{
+        display:flex;
+        //height: 93%;
+        .transferList-content-right{
+            overflow: auto;
+            height: calc(100% - 54px);
+            .nc-bill-form-area{
+                overflow: auto;
+            }
+        }
+    }
+}
+/**树卡中 左树  滚动条的样式**/
+.single-table::-webkit-scrollbar{/*整个滚动条区域的宽度*/
+	width:8px;
+}
+.single-table::-webkit-scrollbar-button{/*滚动条上下两边的按钮*/
+	display:none;
+}
+.single-table::-webkit-scrollbar-thumb{/*真滚动条样式*/
+	//-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+	background:rgba(0,0,0,0.54);
+	border-radius: 100px ;
+}
+.single-table	::-webkit-scrollbar-track {/*滚动条滚动的轨道*/
+	display: none;
+}
+
