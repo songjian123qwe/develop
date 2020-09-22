@@ -1,0 +1,41 @@
+
+.teamMemberContent{
+    width:100%;
+    height:100%;
+    .tabListCon{
+        width:100%;
+        .am-tabs-default-bar-tab{
+            display: inline-block;
+            text-align: center;
+            line-height: 27.5px;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            padding:8px 4px;
+        }
+        .am-tabs-default-bar-tab-active{
+            color:#E14C46;
+        }
+        .am-tabs-default-bar-underline{
+            border: 1px #E14C46 solid;
+        }
+        .tabCon{
+            height:calc(~'100% - 43.5px');
+            overflow:auto;
+            background:#F5F5F5;
+            padding:0.24rem 0.24rem 0rem 0.24rem;
+            .am-list-view-scrollview-content{
+                height:100%;
+                .am-pull-to-refresh-content-wrapper{
+                    min-height:100%;
+                    .am-list-body{
+                        background:none;
+                        .list-view-section-body{
+                            overflow:hidden;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

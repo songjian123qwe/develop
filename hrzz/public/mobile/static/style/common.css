@@ -1,0 +1,67 @@
+/* 样式覆盖文件 by TsingM */
+#app {
+  /* height: auto!important; */
+  margin: 0!important;
+  padding: 0!important;
+  background-color: #ffffff!important;
+  min-width:100%!important;
+  max-width:100%!important;
+  height:100%;
+}
+html,body{
+  height: 100%;
+  margin: 0!important;
+  padding: 0!important;
+}
+* {
+  box-sizing: border-box;
+}
+ul,li,p{ padding:0;margin:0;list-style:none}
+img {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border:0;
+  word-wrap:break-word;
+  /*-webkit-touch-callout:none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;*/
+}
+*:not(input,textarea) {
+  -webkit-touch-callout:none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+* {-webkit-tap-highlight-color:rgba(0,0,0,0);}
+input,button,select,textarea{
+  outline:none;
+  border:none;
+}
+a{
+  text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix:after{clear:both;} 
+.clearfix{ 
+    *zoom:1;/*IE/7/6*/
+}

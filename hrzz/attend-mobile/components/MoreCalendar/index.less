@@ -1,0 +1,208 @@
+.morcalendar{
+    position: relative;
+    line-height: 0.8rem;
+    height: 0.8rem;
+    width: 100%;
+
+.calendar-content{
+	width:100%;
+    background:#F5F5F5;
+    overflow: hidden;
+    .calendar-grid{
+                &:last-child{
+                    margin-bottom: 100%;
+                }
+                background: #ffffff;
+                color: #999;
+                font-size: 0.32rem;
+                display: flex;
+                flex-direction:column;
+                justify-content: space-between;
+                overflow: hidden;
+                margin-top:0.18rem;
+                .year{
+                	text-align:center;
+                	line-height:0.68rem;
+                	line-height:0.68rem;
+                	font-size:0.3rem;
+                	color:#333;
+                	font-weight:500;
+                	border-bottom:1px solid #E9E9E9;
+                	&.active{
+                		color:#E14C46
+                	}
+                }
+                .grid-row{
+                	padding: 0 0.15rem;
+                    line-height: 0.9rem;
+                    display: flex;
+                    flex-wrap: wrap;
+                    overflow: hidden;
+                    margin-bottom: 0.25rem;
+                    justify-content: space-between;
+                    .grid-cell{
+                        width: 0.9rem;
+                        margin:0 0.1rem;
+                        padding:0.15rem 0;
+                        text-align: center;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        .flextype;
+                        .grid-text{
+                            width: 0.9rem;
+                            height: 0.9rem;
+                            line-height: 0.9rem;
+                            text-align: center;
+                            border-radius: 50%;
+                            &.gray{
+                                color: #999999;
+                            }
+                        }
+                        &.fill{
+                            position:relative;
+                            &:before{
+                                position: absolute;
+                                content: '';
+                                bottom:50%;
+                                left: 50%;
+                                margin-bottom: -0.6rem;
+                                width: 0.1rem;
+                                height: 0.1rem;
+                                background: #999;
+                                margin-left: -0.05rem;
+                                border-radius: 50%;
+                            }
+                            .grid-text{
+                                color: #999999
+                            }
+                          
+                        }
+                        &.today{
+                            .grid-text{
+                                color: #E14C46;
+                            }
+                        }
+                        &.active{
+                            .grid-text{
+                                background: #E14C46;
+                                color: #ffffff;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+
+}
+.flextype {
+    display: flex;
+}
+.average{
+    flex: 1;
+}
+.month{
+    position: relative;
+    height: 0.9rem;
+}
+.column{
+    flex-direction: column;
+}
+	.calendar {
+            .flextype;
+            .column;
+            position:relative;
+            .calendar-title {
+                .flextype;
+                height: 0.9rem;
+                background-color: #ffffff;
+                .calendar-prev,.calendar-next{
+                    line-height: 0.9rem;
+                    width: 2.85rem;
+                    font-size: 0.4rem;
+                    color: #E14C46;
+                    &.disable{
+                        color: #D8D8D8;
+                    }
+                }
+                .calendar-prev {
+                    text-align: right;
+                }
+                .calendar-next {
+                    text-align: left;
+                }
+
+                .calendar-date{
+                    line-height: 0.8rem;
+                    width: 100%;
+                    color: #333333;
+                    text-align: center;
+                    font-size: 0.32rem;
+                    text-align:center;
+                    border-bottom:1px solid #E9E9E9;
+                     &>span{
+			          color:#333;
+			          position:absolute;
+			          line-height:0.84rem;
+			          transform: rotate(90deg);
+			          &.reverse {
+				          transform: rotate(270deg);
+				       }
+				   }
+                }            
+            }
+
+            
+        }
+        .calendar-list {
+            color: #2c2c2c;
+            font-size: 0.28rem;
+            position: relative;
+            overflow-x: hidden;
+            overflow-y: auto;
+            .average;
+            ul.list-content{
+                li{
+                    line-height: 0.88rem;
+                    padding: 0 0.25rem;
+                    background: #ffffff;
+                    margin-bottom: 0.2rem;
+                    .overtime-item{
+                        height: 0.88rem;
+                        line-height: 0.88rem;
+                        border-bottom: 1px solid #eeeeee;
+                        .flextype;
+                        &.last{
+                            border-bottom: none;
+                        }
+                        .item-name{
+                            width: 50%;
+                            color: #999999;
+                        }
+                        .item-value{
+                            width: 50%;
+                            color: #333333;
+                            text-align: right;
+                        }
+                        .item-status{
+                            width: 50%;
+                            color: #333333;
+                            .flextype;
+                            .status-text{
+                                line-height: 0.88rem;
+                                text-align: right;
+                                .average;
+                            }
+                            .status-icon{
+                                width: 0.4rem;
+                                font-size: 0.4rem;
+                                height: 0.88rem;
+                                line-height: 0.88rem;
+                                color: #aaaaaa;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+}

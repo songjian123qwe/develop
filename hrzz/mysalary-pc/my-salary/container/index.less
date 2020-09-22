@@ -1,0 +1,294 @@
+@font-face {
+	font-family: 'hrfont';
+	src: url('../../../../hrpub/common/static/fonts/iconfont.eot');
+	src: url('../../../../hrpub/common/static/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+		url('../../../../hrpub/common/static/fonts/iconfont.woff2') format('woff2'),
+		url('../../../../hrpub/common/static/fonts/iconfont.woff') format('woff'),
+		url('../../../../hrpub/common/static/fonts/iconfont.ttf') format('truetype'),
+		url('../../../../hrpub/common/static/fonts/iconfont.svg#hrfont') format('svg');
+}
+.dark-back{
+    background-color: rgb(15, 16, 19) !important;
+   }
+
+.dark-content{
+    background-color: rgb(40, 40, 42) !important;
+    // border-bottom: 1px solid rgb(57, 57, 63) !important;
+}
+.dark-front{
+    color:#fff !important
+  }
+.dark-bottom{
+border-bottom: 1px solid rgb(57, 57, 63) !important;
+}
+.dark-border{
+border: 1px solid rgb(57, 57, 63) !important;
+}
+.dark-bottom-bg{
+	background-color: rgba(40, 40, 42, 0.8) !important;
+}
+.dark-front-bottom{
+	color: rgba(136,136,136,1);
+}
+.layout-content-wrapper {
+	height: calc(~"100% - 46px") !important; 
+}
+.my-salary {
+		height: 100%;
+		overflow: auto;
+		background: rgb(255, 255, 255) !important;
+	.layout-page-content {
+		height: 100%;
+		overflow: auto;
+		background: rgba(255, 255, 255, 0);
+	}
+	ul {
+		column-count: 1;
+	}
+	li {
+		display: flex;
+		justify-content: space-between;
+	}
+	padding: 20px, 20px, 0, 20px;
+
+	.salary-content {
+		height: 100%;
+		.total-money {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: inline-block;
+			width: 100%;
+			padding-right: 20px;
+			background-color: rgb(246, 246, 246);
+
+			.total-query {
+				width: 260px;
+				height: 95px;
+				background: rgba(255, 255, 255, 1);
+				border-radius: 4px;
+				border: 1px solid rgba(230, 230, 230, 1);
+				display: inline-block;
+				padding-top: 24px;
+				padding-left: 30px;
+				margin-left: 8px;
+				&:first-child {
+					margin-left: 20px;
+					img {
+						margin-left: 0;
+					}
+				}
+				&:first-child::before {
+					height: 0;
+					width: 0;
+				}
+				.item-bg {
+					width: 24px;
+					height: 24px;
+					border-radius: 12px;
+					display: inline-block;
+					text-align: center;
+					line-height: 22px;
+					vertical-align: top;
+
+					img {
+						width: 16px;
+						height: 19px;
+
+						// margin-left: 20px;
+					}
+				}
+
+				.item-query {
+					display: inline-block;
+					margin-left: 8px;
+					font-size: 12px;
+					font-family: PingFang SC;
+					line-height: 18px;
+					color: rgba(102, 102, 102, 1);
+					opacity: 1;
+					.item-money {
+						font-size: 24px;
+						color: rgba(17, 17, 17, 1);
+						line-height: 20px;
+					}
+				}
+			}
+		}
+	}
+	.card-money {
+		min-height: calc(~"100% - 119px") !important;
+		padding-top: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		background: #fff;
+		margin-top: 4px;
+		&:after {
+			content: '';
+			flex: auto;
+		}
+		.card-money-content {
+			position: relative;
+			height: 160px;
+			box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+			border-radius: 16px 4px 4px 4px;
+			border: 1px solid rgba(230, 230, 230, 1);
+			margin-right: 20px;
+			margin-bottom: 20px;
+			&:hover{
+				cursor: pointer;  
+				transition: all 0.3s; /* 所有的属性变化在0.5s的时间段内完成 */
+				transform: scale(1.05);
+			}
+			.card-money-top {
+				width: 320px;
+				height: 59px;
+				position: relative;
+				padding-top: 8px;
+				line-height: 20px;
+				background: rgba(240, 243, 249, 1);
+				opacity: 1;
+				border-radius: 16px 0px 16px 0px;
+				color: rgba(17, 17, 17, 1);
+				column-count: 1;
+				z-index: 1;
+
+				li {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+			.card-money-bottom {
+				width: 320px;
+				height: 116px;
+				position: absolute;
+				top: 45px;
+				padding-top: 20px;
+				font-size: 14px;
+				line-height: 28px;
+				background: rgba(255, 255, 255, 1);
+				opacity: 1;
+				border-radius: 3px;
+				z-index: 0;
+				color: rgba(85, 85, 85, 1);
+
+				li {
+					margin: auto;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+		}
+	}
+}
+.sidebox .sidebox-content .sidebox-header {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgba(243, 243, 243, 1);
+	margin-bottom: 20px;
+}
+.sidebox .sidebox-content {
+	width: 29% !important;
+	border-left: 1px solid rgb(243, 243, 243);
+	box-shadow: -3px -3px 6px rgb(243, 243, 243); //rgba(74, 81, 93, 0.16);
+	.sidebox-body {
+		height: 90%;
+		padding-left: 20px;
+		padding-right: 20px;
+		.card-content {
+			background: rgba(255, 255, 255, 1);
+			opacity: 1;
+			position: relative;
+			border-radius: 20px 4px 20px 4px;
+			.side-card-top {
+				width: 100%;
+				height: 66px;
+				position: relative;
+				padding-left: 20px;
+				padding-right: 20px;
+				padding-top: 8px;
+				line-height: 20px;
+				background: rgba(240, 243, 249, 1);
+				opacity: 1;
+				border-radius: 16px 0px 16px 0px;
+				color: #fff;
+				z-index: 1;
+				li {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					width: 100%;
+				}
+			}
+			.toMember{
+				width:100%;
+				// height:68px;
+				margin-top: 7px;
+				font-size:12px;
+				font-family:PingFang SC;
+				font-weight:400;
+				line-height:17px;
+				color:rgba(85,85,85,1);
+				opacity:1;
+			}
+			.splitters{
+				height: 5px;
+				width: 100%;
+				background-color: #f0f0f0;
+				margin-top: 13px;
+				border-radius: 0 0 5px 5px;
+			}
+			.side-card-bottom {
+				width: 100%;
+				// position: absolute;
+				// top: 70px;
+				font-size: 12px;
+				line-height: 36px;
+				background: rgba(255, 255, 255, 1);
+				opacity: 1;
+				border-radius: 3px;
+				z-index: 0;
+				li {
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					width: 100%;
+					border-bottom: 1px solid rgba(240, 240, 240, 1);
+					padding-left: 20px;
+					padding-right: 20px;
+				}
+			}
+			.notting{
+				height: auto;
+				margin-top: 14px;
+				margin-bottom: 10px;
+				width:324px;
+				font-size:12px;
+				font-family:PingFang SC;
+				font-weight:400;
+				line-height:17px;
+				color:rgba(85,85,85,1);
+				opacity:1;
+			}
+		}
+	}
+}
+.hrfont {
+	font-family: "hrfont" !important;
+	font-size: 10px;
+	font-style: normal;
+	color: rgba(255, 255, 255, 0.8);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}

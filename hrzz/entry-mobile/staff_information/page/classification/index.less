@@ -1,0 +1,111 @@
+.class-container {
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    box-sizing: border-box;
+    padding-top: 0.72rem;
+    box-sizing: border-box;
+    .crumbs-list {
+        position: relative;
+        padding-right: 15px;
+        margin-right: 5px;
+        height: 0.72rem;
+        line-height: 0.72rem;
+        font-size:0.26rem;
+        >span {
+            color:#E14C46;
+        }
+        >i {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size:16px;
+            &:before{
+                color:#888;
+            }
+        }
+        &:last-child {
+            >span {
+                color:#333;
+            }
+            >i {
+                display: none;
+            }
+        }
+    }
+    .crumbs-box {
+        width: 100%;
+        padding: 0 0.24rem;
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        z-index: 2;
+        overflow: hidden;
+        .clearfix{
+            width:100%;
+            overflow-x: auto;
+            white-space:nowrap;
+        }
+    }
+    .list-content {
+        margin-top: 0.2rem;
+        background-color: #fff;
+        box-sizing: border-box;
+        .list-admin {
+            padding-left: 0.23rem;
+            li {
+                height: 0.96rem;
+                line-height: .96rem;
+                font-size:0.32rem;
+                color: #111;
+                border-bottom: 0.5px solid #eee;
+                position: relative;
+                
+                span {
+                    height: 0.96rem;
+                    line-height: .96rem;
+                    font-size:0.32rem;
+                    color: #111;
+                    position: relative;
+                    
+                }
+            }
+        }
+        
+        .list-w-scro {
+            div {
+                width: 7rem;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                overflow: hidden;
+                padding-right: 0.32rem;
+            }
+            i {
+                    
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                right: 0.2rem;
+                color:#D0D0D0;
+               
+            }
+        }
+        .import-qustion {
+            
+            img {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-45%);
+                color: #E14C46;
+                right: -0.3rem;
+                display: block;
+                width: 0.25rem;
+                height: 0.25rem;
+                
+            }
+            
+        }
+    }
+}
+
+

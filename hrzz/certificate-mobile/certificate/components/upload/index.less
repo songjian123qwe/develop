@@ -1,0 +1,89 @@
+// @import url('/src/hrpub/common/static/fonts/iconfont.css');
+@font-face {
+	font-family: 'hrfont';
+	src: url('../../../../../hrpub/common/static/fonts/iconfont.eot');
+	src: url('../../../../../hrpub/common/static/fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+		url('../../../../../hrpub/common/static/fonts/iconfont.woff2') format('woff2'),
+		url('../../../../../hrpub/common/static/fonts/iconfont.woff') format('woff'),
+		url('../../../../../hrpub/common/static/fonts/iconfont.ttf') format('truetype'),
+		url('../../../../../hrpub/common/static/fonts/iconfont.svg#hrfont') format('svg');
+}
+.file-component {
+	// 规定两个并排的带边框的框
+	box-sizing: border-box;
+	.file-upload {
+		width: 100%;
+		min-height: 0.88rem;
+		display: flex;
+		justify-content: space-between;
+		padding-left: 0.3rem;
+		padding-right: 0.3rem;
+		align-items: center;
+		overflow: hidden;
+		background-color: #fff;
+		// border-bottom: 1px #e4e4e4 solid;
+	}
+
+	.file-component-left {
+		text-align: left;
+		font-size: 0.34rem;
+	}
+	.file-component-right {
+		position: relative;
+		.icon {
+			cursor: pointer;
+		}
+		.file-choose {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+		}
+	}
+	.file-item {
+		height: 1.2rem;
+		background-color: #fff;
+		padding-left: 0.2rem;
+		padding-top: 0.2rem;
+		// border-bottom: 1px solid #f4f4f4;
+		&:last-child {
+			border-bottom: none;
+		}
+		.file-img {
+			width: 0.8rem;
+			height: 0.8rem;
+			float: left;
+			background-color: rgba(196, 185, 185, 0.658);
+
+			img {
+				max-width: 100%;
+				max-height: 100%;
+			}
+		}
+		.file-details {
+			float: left;
+			padding-left: 0.2rem;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+
+			.file-details-down {
+				padding-top: 0.1rem;
+			}
+		}
+		.file-del {
+			float: right;
+			margin-right: 0.2rem;
+			vertical-align: middle;
+			margin-top: 0.2rem;
+		}
+	}
+
+	.hrfont {
+		font-size: 0.34rem;
+		font-family: "hrfont" !important;
+		color: #b4b3b3;
+	}
+}

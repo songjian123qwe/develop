@@ -1,0 +1,70 @@
+.mcDialogCon{
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    z-index: 999;
+    width:100%;
+    .mobileDialog{
+        width:100%;
+        height:100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.4);
+        .mobileContent{
+            width: 270px;
+            background-color: #fff;
+            border-radius: 7px;
+            padding-top: 15px;
+            text-align: center;
+            .mcHeader{
+                padding: 6px 15px 15px;
+            }
+            .mcBody{
+                font-size: 15px;
+                color: #888;
+                line-height: 1.5;
+                padding: 0 15px 15px;
+            }
+            .mcFooter{
+                overflow:hidden;
+                .mcFooterBtn{
+                    text-align:center;
+                    height:50px;
+                    line-height:50px;
+                    color: #108ee9;
+                    font-size: 18px;
+                    border-top: 1px solid #ddd;
+                }
+                .mcLeftBtn,.mcRightBtn{
+                    text-align:center;
+                    height:50px;
+                    line-height:50px;
+                    font-size: 18px;
+                    float:left;
+                }
+                .mcLeftBtn{
+                    border-right:1px solid #ddd;
+                    border-top: 1px solid #ddd;
+                    width:134px;
+                    color:#888;
+                }
+                .mcRightBtn{
+                    width:135px;
+                    border-top: 1px solid #ddd;
+                    color: #108ee9;
+                }
+            }
+        }
+    }
+}

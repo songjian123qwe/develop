@@ -1,0 +1,192 @@
+@import '../../../../../static/style/index.less';
+.blue{
+    color: @blue;
+}
+.orange{
+    color: @orange;
+}
+.green{
+    color: @green;
+}
+.approve-list{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    // padding:0 .5rem;
+    box-sizing:border-box;
+    // margin-bottom:.8rem;
+    // background:@gray32; 
+    .list-icon{
+        flex: none;    
+        position: relative;
+        top: .34rem;
+        left: .24rem;
+        width: .56rem;
+        box-sizing:border-box;
+        border-left:1px solid #D8D8D8;
+        z-index: 10;
+        &.firstline{
+            border-left: 1px solid transparent;
+        }
+        .icon-bg{
+            position: absolute;
+            left: -0.16rem;
+            top: -.16rem;
+            width: .32rem;
+            height: .32rem;
+            border-radius: .32rem;
+            z-index: 20;
+            background:@gray32;
+            .icon{
+                display:block;
+                margin: 4px auto 0;
+                width: 8px;
+                height: 9px;
+                z-index: 20;
+                text-align: center;
+                &.gray{
+                    background: url('../img/huan.png') no-repeat center;
+                    background-size: 8px 9px;
+                }
+                &.red{
+                    background: url('../img/yuan.png') no-repeat center;
+                    background-size: 8px;
+                }
+                &.blue{
+                    background: url('../img/yuan.png') no-repeat center;
+                    background-size: 8px;
+                }
+                &.orange{
+                    background: url('../img/yuan.png') no-repeat center;
+                    background-size: 8px;
+                }
+                &.green{
+                    background: url('../img/yuan.png') no-repeat center;
+                    background-size: 8px;
+                }
+                &.purple{
+                    background: url('../img/yuan.png') no-repeat center;
+                    background-size: 8px;
+                }
+            }
+        }
+    }
+    .process-detail{
+        display:flex;
+        flex:auto;
+        padding-bottom: .6rem;
+        .person-photo{
+            flex:none;
+            width: 0.96rem;
+            height: .8rem;
+            overflow: hidden;
+            text-align: center;
+            // border: 1px solid red;
+            .photo-img{
+                width: 1.12rem;
+                height:1.12rem;
+            }
+            .photo-div{
+                width: 1.12rem;
+                height:1.12rem;
+                line-height: 1.1rem;
+                text-align: center;
+                font-size: .36rem;
+                color:#fff;
+            }
+        }
+        .process-main{
+            flex: auto;
+            width: 4rem;
+            padding-right: .24rem;
+            .list_top{
+                height:.4rem;
+                overflow: hidden;
+                .process-name{
+                    font-size:.3rem;
+                    font-weight:bold;
+                    color:#111111;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+
+                }
+                .right{
+                    font-size:.2rem;
+                    font-weight:400;
+                    color:#888888;
+                }
+
+            }
+            .list_text{
+                height:.4rem;
+                font-size: 0;
+                .process-status{
+                    margin-right: .2rem;
+                    font-size:.26rem;
+                    font-weight:400;
+                    color:#1fbfa7;
+                    line-height:.4rem;
+                    &.gray{
+                        color:#888888;
+                    }
+                    &.red{
+                        color:#e14c46;
+                    }
+                    &.blue{
+                        color:#108EE9;
+                    }
+                    &.orange{
+                        color:#FF8B00;
+                    }
+                    &.green{
+                        color:#1FBFA7;
+                    }
+                    &.purple{
+                        color:#998dd9;
+                    }
+                }
+            }
+        }
+        .copy-message{
+            font-size: .24rem;
+            color: #555555;
+            line-height: .4rem;
+        }
+        .list_examine{    
+            position: relative;
+            font-size: .24rem;
+            color: #555555;
+            line-height: .4rem;
+            max-height: 0.8rem;
+            overflow: hidden;
+            &.none{
+                display: none;
+            }
+            &.show-more{
+                max-height: inherit;
+                overflow: auto;
+            }
+            .more-btn{
+                position: absolute;
+                bottom: 0;
+                right:0;
+            }
+        }
+        .message-list{
+            color:#888888;
+        }
+    }
+
+
+
+
+    
+}
+.right{
+    float:right;
+}
+
+.none{
+    display:none;
+}

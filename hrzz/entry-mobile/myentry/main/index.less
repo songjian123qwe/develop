@@ -1,0 +1,208 @@
+/*
+ * @Author: sunzhijun 
+ * @Date: 2019-05-20 18:18:39 
+ * @Last Modified by: sunzhijun
+ * @Last Modified time: 2019-06-03 17:12:30
+ */
+@import '../../../public/mobile/static/style/index.less';
+@import './css/fonts.css';
+
+.entry-wrap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #DEE7F5;
+    .bg-top{
+        position: absolute;
+        top: 44px;
+        left: 52px;
+        width: 199px;
+        height: 41.5px;
+        background-image: url(../main/img/icon_01.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .bg-down{
+        position: absolute;
+        bottom: 32px;
+        left: -3px;
+        width: 134.5px;
+        height: 36px;
+        background-image: url(../main/img/icon_02.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+.entry{
+    position: relative;
+    padding: 0.4rem 0.3rem;
+    z-index: 9;
+    .entry-box{
+        position: relative;
+        margin-bottom: 18px;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 24px;
+            bottom: -24px;
+            width: 0;
+            height: 3px;
+            border-width: 11px 15px;
+            border-style:solid;
+            font-size: 0;
+            line-height: 0;
+        }
+        &.color_01{
+            &::after{
+                border-color: #3BC2FF transparent transparent transparent;
+            }
+        }
+        &.color_02{
+            &::after{
+                border-color: #00CFB7 transparent transparent transparent;
+            }
+        }
+        &.color_03{
+            &::after{
+                border-color: #FFC149 transparent transparent transparent;
+            }
+        }
+        &.color_04{
+            &::after{
+                border-color: #3BC2FF transparent transparent transparent;
+            }
+        }
+    }
+    .entry-list{
+        height: 105px;
+        border-radius: 5px;
+        overflow: hidden;
+        
+    }
+    .step{
+        float: left;
+        width: 75px;
+        height: 105px;
+        .setp-icon{
+            margin-top: 32px;
+            display: block;
+            text-align: center;
+            font-size: 45px;
+        }
+        &.step_1{
+            background-color: #3BC2FF;
+        }
+        &.step_2{
+            background-color: #00CFB7;
+        }
+        &.step_3{
+            background-color: #FFC149;
+        }
+        &.step_4{
+            background-color: #3BC2FF;
+        }
+    }
+    .info{
+        position: relative;
+        margin-left: 75px;
+        height: 105px;
+        background-color: #fff;
+    }
+    .info-con{
+        position: relative;
+        z-index: 9;
+        padding-top: 33px;
+        padding-left: 0.225rem;
+        width: 5.2rem;
+        .title{
+            font-size: 20px;
+            color: #333;
+        }
+        .subhead{
+            margin-top: 6px;
+            font-size: 13px;
+            color: #555;
+        }
+    }
+    .line-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 3.95rem;
+        height: 2.5rem;
+        background: url('../main/img/linebg_icon.png') no-repeat 50% 50%;
+        background-size: contain;
+        z-index: 1;
+    }
+    .check-btn{
+        position: absolute;
+        top: 34px;
+        right: 0.25rem;
+        display: block;
+        width: 48px;
+        height: 26px;
+        text-align: center;
+        // border: 1px solid #BFBFBF;
+        line-height: 26px;
+        font-size: 15px;
+        // color: #BFBFBF;
+        border-radius: 5px;
+        background-color: #fff;
+        z-index: 9;
+        border: 1px solid #3BC2FF;
+        color: #3BC2FF;
+        // &:active{
+        //     border: 1px solid #3BC2FF;
+        //     color: #3BC2FF;
+        // }
+    }
+}
+.phone-box{
+    position: fixed;
+    right: 12px;
+    bottom: 15px;
+    width: 174px;
+    background-color: #fff;
+    border-radius: 50px;
+    overflow: hidden;
+    .tel{
+        padding: 6px;
+        display: block;
+    }
+    .phone-icon-box{
+        position: relative;
+        float: left;
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-color: #00CFB7;
+        overflow: hidden;
+        text-align: center;
+    }
+    .phone-icon{
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        display: inline-block;
+        font-size: 19px;
+        width: 21px;
+        height: 21px;
+    }
+    .phone-num{
+        margin-left: 45px;
+        padding-top: 2px;
+        line-height: 18px;
+        span{
+            display: block;
+        }
+    }
+    .num{
+        font-size: 12px;
+        color: #555;
+    }
+    .hr{
+        font-size: 17px;
+        color: #555;
+    }
+}

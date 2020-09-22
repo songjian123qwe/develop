@@ -1,0 +1,1777 @@
+{
+  "data": {
+    "temp": {
+      "areas": {
+        "card": {
+          "areastatus": "edit",
+          "areaVisible": true,
+          "clazz": "nc.vo.trn.transmng.StapplyVO",
+          "code": "card",
+          "isunfold": true,
+          "items": [
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "pk_hi_stapply",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "1",
+              "code": "pk_hi_stapply",
+              "color": "#111111",
+              "datatype": "51",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "离职申请主键",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "bill_code",
+              "visible": true,
+              "maxlength": "28",
+              "colnum": "1",
+              "position": "2",
+              "code": "bill_code",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "单据编号",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_trnstype.trnstypename",
+              "metadataProperty": "hrhi.trnstype.trnstypename",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "hrhi/refer/hiref/TrnsTypeGridRef/index",
+              "colnum": "1",
+              "position": "3",
+              "code": "pk_trnstype",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "离职类型",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "pk_psnjob.pk_psndoc.name",
+              "visible": true,
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "4",
+              "code": "pk_psnjob.pk_psndoc.name",
+              "color": "#111111",
+              "datatype": "58",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "姓名",
+              "itemtype": "residtxt"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_org.name",
+              "metadataProperty": "uap.adminorg.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/AdminOrgDefaultTreeRef/index",
+              "colnum": "1",
+              "position": "5",
+              "code": "oldpk_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_dept.name",
+              "metadataProperty": "hrjf.hrdept.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/HRDeptTreeRef/index",
+              "colnum": "1",
+              "position": "6",
+              "code": "oldpk_dept",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "部门",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_psncl.name",
+              "metadataProperty": "uap.psncl.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/psninfo/PsnclTreeRef/index",
+              "colnum": "1",
+              "position": "7",
+              "code": "oldpk_psncl",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "人员类别",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "oldmemo",
+              "visible": true,
+              "maxlength": "1024",
+              "colnum": "1",
+              "position": "8",
+              "code": "oldmemo",
+              "color": "#111111",
+              "datatype": "30",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "备注",
+              "itemtype": "textarea"
+            },
+            {
+              "col": "6",
+              "required": true,
+              "fieldDisplayed": "refcode",
+              "metapath": "effectdate",
+              "visible": true,
+              "maxlength": "10",
+              "colnum": "1",
+              "position": "9",
+              "code": "effectdate",
+              "color": "#111111",
+              "datatype": "39",
+              "fieldValued": "refpk",
+              "label": "生效日期",
+              "itemtype": "datePickerNoTimeZone"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "sreason.name",
+              "metadataProperty": "uap.Defdoc-HRHI001_0xx.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/userdef/DefdocTreeRef/index",
+              "pk_defdoclist": "1001Z71000000000GPD1",
+              "colnum": "1",
+              "position": "10",
+              "code": "sreason",
+              "color": "#111111",
+              "datatype": "57",
+              "refName_db": "异动原因",
+              "fieldValued": "refpk",
+              "label": "离职原因",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "memo",
+              "visible": true,
+              "maxlength": "300",
+              "colnum": "1",
+              "position": "11",
+              "code": "memo",
+              "color": "#111111",
+              "datatype": "30",
+              "fieldValued": "refpk",
+              "label": "离职说明",
+              "itemtype": "textarea"
+            },
+            {
+              "col": "6",
+              "required": true,
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_org.name",
+              "metadataProperty": "uap.adminorg.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/AdminOrgDefaultTreeRef/index",
+              "colnum": "1",
+              "position": "12",
+              "code": "newpk_org",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "required": true,
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_dept.name",
+              "metadataProperty": "hrjf.hrdept.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/HRDeptTreeRef/index",
+              "colnum": "1",
+              "position": "13",
+              "code": "newpk_dept",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新部门",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "required": true,
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_psncl.name",
+              "metadataProperty": "uap.psncl.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/psninfo/PsnclTreeRef/index",
+              "colnum": "1",
+              "position": "14",
+              "code": "newpk_psncl",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新人员类别",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "newmemo",
+              "visible": true,
+              "maxlength": "1024",
+              "colnum": "1",
+              "position": "15",
+              "code": "newmemo",
+              "color": "#111111",
+              "datatype": "30",
+              "fieldValued": "refpk",
+              "label": "新备注",
+              "itemtype": "textarea"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_hi_org.name",
+              "metadataProperty": "uap.hrorg.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/HROrgTreeRef/index",
+              "colnum": "1",
+              "position": "16",
+              "code": "pk_hi_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "新人员信息组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_hrcm_org.name",
+              "metadataProperty": "uap.hrorg.name",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/HROrgTreeRef/index",
+              "colnum": "1",
+              "position": "17",
+              "code": "pk_hrcm_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "新合同管理组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "isrelease",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "visible": true,
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "18",
+              "code": "isrelease",
+              "color": "#111111",
+              "datatype": "32",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "解除",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "isend",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "visible": true,
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "19",
+              "code": "isend",
+              "color": "#111111",
+              "datatype": "32",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "终止",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "pk_psnjob.pk_psndoc.email",
+              "visible": true,
+              "maxlength": "50",
+              "colnum": "1",
+              "position": "20",
+              "code": "pk_psnjob.pk_psndoc.email",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "个人邮箱",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "pk_psnjob.pk_psndoc.mobile",
+              "visible": true,
+              "maxlength": "30",
+              "colnum": "1",
+              "position": "21",
+              "code": "pk_psnjob.pk_psndoc.mobile",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "联系电话",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_psnjob.pk_psndoc.addr",
+              "metadataProperty": "uap.address.pk_address",
+              "visible": true,
+              "maxlength": "20",
+              "refcode": "uapbd/refer/pubinfo/AddressRef/index",
+              "colnum": "1",
+              "position": "22",
+              "code": "pk_psnjob.pk_psndoc.addr",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "通讯地址",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "isdisablepsn",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "visible": true,
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "23",
+              "code": "isdisablepsn",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "停用离职人员",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "ifaddblack",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "visible": true,
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "24",
+              "code": "ifaddblack",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "加入黑名单",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "addreason",
+              "visible": true,
+              "maxlength": "1024",
+              "colnum": "1",
+              "position": "25",
+              "code": "addreason",
+              "color": "#111111",
+              "datatype": "30",
+              "fieldValued": "refpk",
+              "label": "加入理由",
+              "itemtype": "textarea"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_psnjob.pk_org",
+              "metadataProperty": "uap.adminorg.name",
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/AdminOrgDefaultTreeRef/index",
+              "colnum": "1",
+              "position": "26",
+              "code": "pk_psnjob.pk_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_psnjob.pk_dept",
+              "metadataProperty": "hrjf.hrdept.name",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/HRDeptTreeRef/index",
+              "colnum": "1",
+              "position": "27",
+              "code": "pk_psnjob.pk_dept",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "部门",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "pk_billtype",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "28",
+              "code": "pk_billtype",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "交易",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "transtypeid",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "29",
+              "code": "transtypeid",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "交易类型主键",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "transtype",
+              "maxlength": "50",
+              "colnum": "1",
+              "position": "30",
+              "code": "transtype",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "交易类型",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_psnjob.pk_psndoc",
+              "metadataProperty": "hrhi.hi_psnjob.pk_psndoc",
+              "maxlength": "20",
+              "refcode": "hrhi/refer/hiref/PsnjobRefTreeGridRef/index",
+              "colnum": "1",
+              "position": "31",
+              "code": "pk_psnjob",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "调配人",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "business_type.businame",
+              "metadataProperty": "uap.BusitypeVO.businame",
+              "maxlength": "20",
+              "refcode": "uap/refer/riart/busitype/index",
+              "colnum": "1",
+              "position": "32",
+              "code": "business_type",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "流程类型",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "approve_state",
+              "options": [
+                {
+                  "display": "自由",
+                  "value": "-1"
+                },
+                {
+                  "display": "审批未通过",
+                  "value": "0"
+                },
+                {
+                  "display": "审批通过",
+                  "value": "1"
+                },
+                {
+                  "display": "审批进行中",
+                  "value": "2"
+                },
+                {
+                  "display": "提交",
+                  "value": "3"
+                },
+                {
+                  "display": "已执行",
+                  "value": "102"
+                }
+              ],
+              "maxlength": "3",
+              "colnum": "1",
+              "position": "33",
+              "code": "approve_state",
+              "color": "#111111",
+              "datatype": "203",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "审批状态",
+              "itemtype": "select"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_psndoc.name",
+              "metadataProperty": "hrhi.bd_psndoc.name",
+              "maxlength": "20",
+              "refcode": "hrhi/refer/hiref/PsndocGridRef/index",
+              "colnum": "1",
+              "position": "34",
+              "code": "pk_psndoc",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "人员主键",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "assgid",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "35",
+              "code": "assgid",
+              "color": "#111111",
+              "min": "-2147483648",
+              "datatype": "4",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "max": "2147483647",
+              "label": "人员任职ID",
+              "itemtype": "number"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "pk_psnorg",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "36",
+              "code": "pk_psnorg",
+              "color": "#111111",
+              "datatype": "51",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "人员组织关系",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "stapply_mode",
+              "options": [
+                {
+                  "display": "组织内调配",
+                  "value": "1"
+                },
+                {
+                  "display": "调出",
+                  "value": "2"
+                },
+                {
+                  "display": "调入",
+                  "value": "3"
+                }
+              ],
+              "maxlength": "3",
+              "colnum": "1",
+              "position": "37",
+              "code": "stapply_mode",
+              "color": "#111111",
+              "datatype": "203",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "调配方式",
+              "itemtype": "select"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "billmaker.user_name",
+              "metadataProperty": "uap.user.user_name",
+              "maxlength": "20",
+              "refcode": "uap/refer/riart/userDefaultRefer/index",
+              "colnum": "1",
+              "position": "38",
+              "code": "billmaker",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "申请人",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "apply_date",
+              "maxlength": "10",
+              "colnum": "1",
+              "position": "39",
+              "code": "apply_date",
+              "color": "#111111",
+              "datatype": "39",
+              "fieldValued": "refpk",
+              "label": "申请日期",
+              "itemtype": "datePickerNoTimeZone"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_group.name",
+              "metadataProperty": "uap.group.name",
+              "maxlength": "20",
+              "refcode": "uap/refer/riart/groupTreeRef/index",
+              "colnum": "1",
+              "position": "40",
+              "code": "pk_group",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "所属集团",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_org.name",
+              "metadataProperty": "uap.hrorg.name",
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/HROrgTreeRef/index",
+              "colnum": "1",
+              "position": "41",
+              "code": "pk_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "人事组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "fun_code",
+              "maxlength": "60",
+              "colnum": "1",
+              "position": "42",
+              "code": "fun_code",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "制单节点编码",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "ishrssbill",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "43",
+              "code": "ishrssbill",
+              "color": "#111111",
+              "datatype": "32",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "是否自助",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "trialdays",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "44",
+              "code": "trialdays",
+              "color": "#111111",
+              "min": "-2147483648",
+              "datatype": "4",
+              "fieldValued": "refpk",
+              "max": "2147483647",
+              "label": "岗位试用期限",
+              "itemtype": "number"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "trial_unit",
+              "options": [
+                {
+                  "display": "年",
+                  "value": "1"
+                },
+                {
+                  "display": "月",
+                  "value": "2"
+                },
+                {
+                  "display": "天",
+                  "value": "3"
+                }
+              ],
+              "maxlength": "3",
+              "colnum": "1",
+              "position": "45",
+              "code": "trial_unit",
+              "color": "#111111",
+              "datatype": "203",
+              "fieldValued": "refpk",
+              "label": "岗位试用期限单位",
+              "itemtype": "select"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "trialbegindate",
+              "maxlength": "10",
+              "colnum": "1",
+              "position": "46",
+              "code": "trialbegindate",
+              "color": "#111111",
+              "datatype": "39",
+              "fieldValued": "refpk",
+              "label": "试用开始日期",
+              "itemtype": "datePickerNoTimeZone"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "trialenddate",
+              "maxlength": "10",
+              "colnum": "1",
+              "position": "47",
+              "code": "trialenddate",
+              "color": "#111111",
+              "datatype": "39",
+              "fieldValued": "refpk",
+              "label": "试用结束日期",
+              "itemtype": "datePickerNoTimeZone"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "approver.user_name",
+              "metadataProperty": "uap.user.user_name",
+              "maxlength": "20",
+              "refcode": "uap/refer/riart/userDefaultRefer/index",
+              "colnum": "1",
+              "position": "48",
+              "code": "approver",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "审批人",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "approve_time",
+              "maxlength": "19",
+              "colnum": "1",
+              "position": "49",
+              "code": "approve_time",
+              "color": "#111111",
+              "datatype": "34",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "审批时间",
+              "itemtype": "datetimepicker"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "approve_note",
+              "maxlength": "2048",
+              "colnum": "1",
+              "position": "50",
+              "code": "approve_note",
+              "color": "#111111",
+              "datatype": "1",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "审批批语",
+              "itemtype": "input"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "creationtime",
+              "maxlength": "19",
+              "colnum": "1",
+              "position": "51",
+              "code": "creationtime",
+              "color": "#111111",
+              "datatype": "34",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "创建时间",
+              "itemtype": "datetimepicker"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "creator.user_name",
+              "metadataProperty": "uap.user.user_name",
+              "maxlength": "20",
+              "refcode": "uap/refer/riart/userDefaultRefer/index",
+              "colnum": "1",
+              "position": "52",
+              "code": "creator",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "创建人",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "modifiedtime",
+              "maxlength": "19",
+              "colnum": "1",
+              "position": "53",
+              "code": "modifiedtime",
+              "color": "#111111",
+              "datatype": "34",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "最后修改时间",
+              "itemtype": "datetimepicker"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "modifier.user_name",
+              "metadataProperty": "uap.user.user_name",
+              "maxlength": "20",
+              "refcode": "uap/refer/riart/userDefaultRefer/index",
+              "colnum": "1",
+              "position": "54",
+              "code": "modifier",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "最后修改人",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_old_hi_org.name",
+              "metadataProperty": "uap.hrorg.name",
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/HROrgTreeRef/index",
+              "colnum": "1",
+              "position": "55",
+              "code": "pk_old_hi_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "原人员信息组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_post.postname",
+              "metadataProperty": "hrjf.om_post.postname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/PostTreeRef/index",
+              "colnum": "1",
+              "position": "56",
+              "code": "oldpk_post",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "岗位",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_post.postname",
+              "metadataProperty": "hrjf.om_post.postname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/PostTreeRef/index",
+              "colnum": "1",
+              "position": "57",
+              "code": "newpk_post",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新岗位",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_postseries.postseriesname",
+              "metadataProperty": "hrjf.postseries.postseriesname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/PostSeriesTreeRef/index",
+              "colnum": "1",
+              "position": "58",
+              "code": "newpk_postseries",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "岗位序列",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_postseries.postseriesname",
+              "metadataProperty": "hrjf.postseries.postseriesname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/PostSeriesTreeRef/index",
+              "colnum": "1",
+              "position": "59",
+              "code": "oldpk_postseries",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新岗位序列",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_job.jobname",
+              "metadataProperty": "hrjf.om_job.jobname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/JobTypeJobRef/index",
+              "colnum": "1",
+              "position": "60",
+              "code": "oldpk_job",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "职务",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_job.jobname",
+              "metadataProperty": "hrjf.om_job.jobname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/JobTypeJobRef/index",
+              "colnum": "1",
+              "position": "61",
+              "code": "newpk_job",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新职务",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_jobgrade",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "62",
+              "code": "oldpk_jobgrade",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "职级",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_jobgrade",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "63",
+              "code": "newpk_jobgrade",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新职级",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_jobrank.jobrankname",
+              "metadataProperty": "hrjf.jobrank.jobrankname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/JobRankGridRef/index",
+              "colnum": "1",
+              "position": "64",
+              "code": "oldpk_jobrank",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "职等",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_jobrank.jobrankname",
+              "metadataProperty": "hrjf.jobrank.jobrankname",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/JobRankGridRef/index",
+              "colnum": "1",
+              "position": "65",
+              "code": "newpk_jobrank",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新职等",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "trial_flag",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "66",
+              "code": "trial_flag",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "试用",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "olddeposemode",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "67",
+              "code": "olddeposemode",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "免职方式",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newdeposemode",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "68",
+              "code": "newdeposemode",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新免职方式",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldjobmode",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "69",
+              "code": "oldjobmode",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "任职方式",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newjobmode",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "70",
+              "code": "newjobmode",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新任职方式",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldoccupation",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "71",
+              "code": "oldoccupation",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "职业",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newoccupation",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "72",
+              "code": "newoccupation",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新职业",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldpk_job_type",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "73",
+              "code": "oldpk_job_type",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "任职类型",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newpk_job_type",
+              "maxlength": "20",
+              "colnum": "1",
+              "position": "74",
+              "code": "newpk_job_type",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新任职类型",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "oldpoststat",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "75",
+              "code": "oldpoststat",
+              "color": "#111111",
+              "datatype": "32",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "是否在岗",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "newpoststat",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "76",
+              "code": "newpoststat",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "新是否在岗",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldseries.jobtypename",
+              "metadataProperty": "hrjf.jobtype.jobtypename",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/JobTypeTreeRef/index",
+              "colnum": "1",
+              "position": "77",
+              "code": "oldseries",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "职务类别",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newseries.jobtypename",
+              "metadataProperty": "hrjf.jobtype.jobtypename",
+              "maxlength": "20",
+              "refcode": "hrjf/refer/jfref/JobTypeTreeRef/index",
+              "colnum": "1",
+              "position": "78",
+              "code": "newseries",
+              "color": "#111111",
+              "datatype": "204",
+              "fieldValued": "refpk",
+              "label": "新职务类别",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "oldworktype.name",
+              "metadataProperty": "uap.Defdoc-BD004_0xx.name",
+              "maxlength": "20",
+              "refcode": "uapbd/refer/userdef/DefdocTreeRef/index",
+              "pk_defdoclist": "1009ZZ100000000030SP",
+              "colnum": "1",
+              "position": "79",
+              "code": "oldworktype",
+              "color": "#111111",
+              "datatype": "57",
+              "refName_db": "工种(自定义档案)",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "工种",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "newworktype.name",
+              "metadataProperty": "uap.Defdoc-BD004_0xx.name",
+              "maxlength": "20",
+              "refcode": "uapbd/refer/userdef/DefdocTreeRef/index",
+              "pk_defdoclist": "1009ZZ100000000030SP",
+              "colnum": "1",
+              "position": "80",
+              "code": "newworktype",
+              "color": "#111111",
+              "datatype": "57",
+              "refName_db": "工种(自定义档案)",
+              "fieldValued": "refpk",
+              "label": "新工种",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "ifendpart",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "81",
+              "code": "ifendpart",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "结束兼职",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "ifsynwork",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "82",
+              "code": "ifsynwork",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "同步工作履历",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "ifaddpsnchg",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "83",
+              "code": "ifaddpsnchg",
+              "color": "#111111",
+              "datatype": "32",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "跨组织调配增加流动记录",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "isneedfile",
+              "options": [
+                {
+                  "display": "是",
+                  "value": "Y"
+                },
+                {
+                  "display": "否",
+                  "value": "N"
+                }
+              ],
+              "maxlength": "1",
+              "colnum": "1",
+              "position": "84",
+              "code": "isneedfile",
+              "color": "#111111",
+              "datatype": "32",
+              "fieldValued": "refpk",
+              "label": "附件必传",
+              "itemtype": "checkbox"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refname",
+              "metapath": "pk_old_hrcm_org.name",
+              "metadataProperty": "uap.hrorg.name",
+              "maxlength": "20",
+              "refcode": "uapbd/refer/org/HROrgTreeRef/index",
+              "colnum": "1",
+              "position": "85",
+              "code": "pk_old_hrcm_org",
+              "color": "#111111",
+              "datatype": "204",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "原合同管理组织",
+              "itemtype": "refer"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "workflow_state",
+              "options": [
+                {
+                  "display": "自由",
+                  "value": "-1"
+                },
+                {
+                  "display": "审批未通过",
+                  "value": "0"
+                },
+                {
+                  "display": "审批通过",
+                  "value": "1"
+                },
+                {
+                  "display": "审批进行中",
+                  "value": "2"
+                },
+                {
+                  "display": "提交",
+                  "value": "3"
+                },
+                {
+                  "display": "部门交接完成",
+                  "value": "4"
+                },
+                {
+                  "display": "离职交接中",
+                  "value": "5"
+                },
+                {
+                  "display": "已执行",
+                  "value": "102"
+                },
+                {
+                  "display": "待离职",
+                  "value": "6"
+                }
+              ],
+              "maxlength": "3",
+              "colnum": "1",
+              "position": "86",
+              "code": "workflow_state",
+              "color": "#111111",
+              "datatype": "203",
+              "disabled": true,
+              "fieldValued": "refpk",
+              "label": "流程状态",
+              "itemtype": "select"
+            },
+            {
+              "col": "6",
+              "fieldDisplayed": "refcode",
+              "metapath": "ts",
+              "colnum": "1",
+              "position": "87",
+              "code": "ts",
+              "color": "#111111",
+              "datatype": "34",
+              "fieldValued": "refpk",
+              "label": "ts",
+              "itemtype": "datetimepicker"
+            }
+          ],
+          "moduletype": "form",
+          "name": "卡片",
+          "oid": "1001Z71000000000Q6WI",
+          "order": "1",
+          "pagination": false,
+          "vometa": "trn.stapply",
+          "isgrandson": false
+        }
+      },
+      "clazz": "nc.vo.trn.transmng.AggStapply",
+      "code": "60652050audit",
+      "headcode": "card",
+      "name": "离职审批",
+      "oid": "1001Z71000000000PUWY",
+      "pagecode": "60652050p_audit",
+      "ts": "2019-08-19 10:23:31"
+    },
+    "formData": {
+      "pageid": "60652050nccloud",
+      "templetid": "1001Z71000000000PUWY",
+      "card": {
+        "rows": [
+          {
+            "status": "0",
+            "isOptimized": false,
+            "values": {
+              "pk_group": {
+                "display": "1909测试集团",
+                "value": "0001ER100000000003VE"
+              },
+              "pk_hi_org": {},
+              "olddeposemode": {},
+              "ishrssbill": {
+                "display": "是",
+                "value": true
+              },
+              "modifier": {},
+              "memo": {},
+              "approve_state": {
+                "display": "自由",
+                "value": "-1"
+              },
+              "isend": {},
+              "dr": {
+                "value": "0"
+              },
+              "oldpk_job_type": {},
+              "pk_org": {
+                "display": "北京分公司",
+                "value": "0001ER10000000000CCI"
+              },
+              "newoccupation": {},
+              "apply_date": {
+                "value": "2019-08-19"
+              },
+              "newpk_jobrank": {},
+              "oldpoststat": {},
+              "isdisablepsn": {
+                "display": "是",
+                "value": true
+              },
+              "ifendpart": {},
+              "trial_unit": {},
+              "newpk_psncl": {},
+              "workflow_state": {},
+              "pk_psnjob.pk_psndoc.mobile": {
+                "display": "13681311431",
+                "value": "13681311431"
+              },
+              "newpk_dept": {},
+              "pk_hrcm_org": {},
+              "fun_code": {},
+              "isrelease": {},
+              "approve_note": {},
+              "transtype": {},
+              "oldpk_job": {},
+              "pseudocolumn": {},
+              "newpk_postseries": {},
+              "pk_psnjob.pk_dept": {
+                "display": "开发",
+                "value": "开发"
+              },
+              "trialenddate": {},
+              "newpoststat": {},
+              "trialdays": {},
+              "assgid": {},
+              "oldpk_post": {},
+              "oldmemo": {},
+              "newpk_org": {},
+              "billmaker": {
+                "display": "石岩",
+                "value": "1001ER100000000002DG"
+              },
+              "pk_trnstype": {},
+              "oldpk_jobrank": {},
+              "pk_psnjob.pk_org": {
+                "display": "北京分公司",
+                "value": "北京分公司"
+              },
+              "oldpk_postseries": {},
+              "creationtime": {
+                "value": "2019-08-19 14:21:13"
+              },
+              "transtypeid": {},
+              "addreason": {},
+              "newpk_jobgrade": {},
+              "newpk_post": {},
+              "pk_billtype": {
+                "value": "6115"
+              },
+              "isneedfile": {},
+              "oldseries": {},
+              "sreason": {},
+              "bill_code": {},
+              "stapply_mode": {
+                "display": "组织内调配",
+                "value": "1"
+              },
+              "pk_psnjob.pk_psndoc.addr": {},
+              "oldpk_psncl": {},
+              "oldpk_org": {},
+              "newjobmode": {},
+              "oldpk_jobgrade": {},
+              "ifaddpsnchg": {},
+              "newseries": {},
+              "modifiedtime": {},
+              "newpk_job_type": {},
+              "business_type": {},
+              "pk_psnorg": {
+                "value": "0001ER10000000000D4D"
+              },
+              "oldjobmode": {},
+              "newworktype": {},
+              "newmemo": {},
+              "pk_psnjob.pk_psndoc.email": {},
+              "approver": {},
+              "pk_hi_stapply": {},
+              "creator": {
+                "display": "石岩",
+                "value": "1001ER100000000002DG"
+              },
+              "oldpk_dept": {},
+              "ifsynwork": {},
+              "newpk_job": {},
+              "newdeposemode": {},
+              "trialbegindate": {},
+              "oldoccupation": {},
+              "oldworktype": {},
+              "pk_old_hrcm_org": {},
+              "pk_psnjob.pk_psndoc.name": {
+                "display": "石岩",
+                "value": "石岩"
+              },
+              "effectdate": {},
+              "pk_psnjob": {
+                "display": "0001ER10000000000D4E",
+                "value": "0001ER10000000000D4C"
+              },
+              "pk_psndoc": {
+                "display": "石岩",
+                "value": "0001ER10000000000D4E"
+              },
+              "pk_old_hi_org": {},
+              "approve_time": {},
+              "ifaddblack": {},
+              "trial_flag": {},
+              "ts": {}
+            }
+          }
+        ],
+        "areacode": "card"
+      }
+    }
+  },
+  "success": true
+}

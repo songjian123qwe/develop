@@ -1,0 +1,141 @@
+@import "../../../common.less";
+@fontsize: 0.3rem;
+.hr-input-disabled {
+    color: @disableColor;
+}
+.am-list-item.hr-input-item .am-list-line .am-input-control input,
+.am-list-item.hr-input-item .am-list-line .am-input-control .fake-input-container div {
+    text-align: right;
+    font-size: @fontsize;
+    color: @itemDisplayColor;
+}
+.am-list-item.hr-input-item .am-list-line .am-input-control.am-filed-changed input,
+.am-list-item.hr-input-item.am-filed-changed .am-list-line .am-input-control .fake-input-container div {
+    color: @filedChangedColor;
+}
+textarea::-webkit-input-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+textarea::-moz-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+textarea:-ms-input-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+textarea:-moz-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+input::-webkit-input-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+input::-moz-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+input:-ms-input-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+input:-moz-placeholder {
+    color: @itemPlaceholderColor !important;
+}
+.am-search-input input[type="search"]::-webkit-input-placeholder {
+    background: none;
+    text-align: left;
+    color: transparent !important;
+}
+.am-search-input input[type="search"]::-moz-placeholder {
+    background: none;
+    text-align: left;
+    color: transparent !important;
+}
+.am-search-input input[type="search"]::-ms-input-placeholder {
+    background: none;
+    text-align: left;
+    color: transparent !important;
+}
+.am-search-input input[type="search"]::placeholder {
+    background: none;
+    text-align: left;
+    color: transparent !important;
+}
+.am-textarea-control textarea:disabled {
+    color: @disableColor;
+}
+.hr-input-item.am-list-item .am-input-control {
+    text-align: right;
+    font-size: @fontsize;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 2px 0;
+    color: @itemDisplayColor;
+}
+.hr-input-item.am-list-item .am-input-control.am-filed-changed,
+.hr-input-item.am-list-item.am-filed-changed .am-input-control {
+    color: @filedChangedColor;
+}
+.hr-mobile-card {
+    /*********cover font size************/
+    .am-list-header {
+        color: @itemTitleColor;
+        font-size: @fontsize;
+    }
+    .am-list-item div.am-input-label {
+        font-size: @fontsize;
+        color: @itemTitleColor;
+        margin-right: 0.6rem;
+    }
+    .am-list-item .am-list-line div.am-list-content {
+        font-size: @fontsize;
+        color: @itemTitleColor;
+    }
+    .am-list-item .am-list-line div.am-list-extra {
+        font-size: @fontsize;
+        flex-basis: 45%;
+        color: @itemPlaceholderColor;
+    }
+    .am-list-item.has-value-item .am-list-line div.am-list-extra {
+        color: @itemDisplayColor;
+    }
+    .am-list-item.has-value-item.am-filed-changed .am-list-line div.am-list-extra {
+        color: @filedChangedColor;
+    }
+    .am-textarea-control textarea {
+        font-size: @fontsize;
+        color: @itemDisplayColor;
+        line-height: 0.5rem;
+    }
+    .am-filed-changed .am-textarea-control textarea {
+        color: @filedChangedColor;
+    }
+    .am-list-item.am-input-item {
+        padding-right: 0.24rem;
+    }
+
+    /*************************/
+    .am-list-item.am-input-item.hr-input-item.hr-input-span {
+        height: 30px;
+        min-height: 30px;
+        line-height: 30px;
+    }
+    .hr-input-span {
+        .am-list-line::after {
+            background-color: transparent !important;
+        }
+    }
+    /*********other************/
+    .am-input-label {
+        i {
+            color: rgb(225, 76, 70);
+            margin-left: 0;
+            position: absolute;
+        }
+    }
+
+    .hr-text-area {
+        .am-list-body::after {
+            background-color: #ddd !important;
+            left: 0.24rem;
+        }
+    }
+}
+

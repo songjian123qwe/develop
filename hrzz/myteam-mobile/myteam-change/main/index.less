@@ -1,0 +1,67 @@
+
+.teamChangeContent{
+    width:100%;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    .tabListCon{
+        flex:1;
+        display:flex;
+        flex-direction:column;
+        .am-tabs-default-bar-tab{
+            display: inline-block;
+            text-align: center;
+            line-height: 27.5px;
+            overflow:hidden;
+            white-space:nowrap;
+            text-overflow:ellipsis;
+            padding:8px 4px;
+        }
+        .am-tabs-default-bar-tab-active{
+            color:#E14C46;
+        }
+        .am-tabs-default-bar-underline{
+            border: 1px #E14C46 solid;
+        }
+        .tabCon{
+            flex:1;
+            overflow:auto;
+            background:#F5F5F5;
+            overflow:auto;
+            .tabPanelContent{
+                width:100%;
+                .tpcFirst{
+                    overflow:hidden;
+                    padding:0.24rem 0.24rem 0rem 0.24rem;
+                    background:#fff;
+                    .tpcfMonth{
+                        float:left;
+                        width:calc(~'(100% - 4px) / 2');
+                        border:1px solid #E14C46;
+                        height:0.6rem;
+                        line-height:0.6rem;
+                        text-align:center;
+                        color:#E14C46;
+                    }
+                    .firstMonths{
+                        border-radius:4px 0px 0px 4px;
+                    }
+                    .secondMonths{
+                        border-left:none;
+                        border-radius:0px 4px 4px 0px;
+                    }
+                }
+                .tpcSecond{
+                    background:#fff;
+                    height:7rem;
+                    width:100%;
+                    padding:15px 15px 0px 15px;
+                }
+                .tpcThree{
+                    padding:0rem 0.24rem;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,196 @@
+@import '../../../public/mobile/static/style/index.less';
+.main-quit {
+    background-color: rgb(244, 244, 244) !important;
+    font-size:@size32;
+    position: absolute;
+    left: 0;
+    right: 0;
+    overflow: auto;
+    top: 0;
+    bottom: 0;
+    .fl {
+        float: left;
+    }
+    .fr {
+        float: right;
+    }
+   .process {
+       height: 3rem;
+       background: url(../../img/handover.jpg) center no-repeat;
+       background-size: 100%;
+       background-color: @lintblue;
+       font-size:.26rem;
+       padding-top: 1.2rem;
+       display: flex;
+       justify-content: center;
+        >span {
+            color: #fff;
+        }
+   }
+   .progress {
+       height: 0.1rem;
+       width: 3rem;
+       margin: 0 0.15rem;
+       margin-top: 0.15rem;
+       text-align: center;
+       border-radius: 0.05rem;
+       background-color: rgba(255, 255, 255, .7);
+       .progress-bar {
+            height: 0.1rem;
+            border-radius: 0.05rem;
+            background-color: bisque;
+            max-width: 3rem;
+       }
+   }
+
+   .fontListBox {
+    height: 1.8rem;
+       overflow: auto;
+       -webkit-overflow-scrolling: touch;
+       background-color: #fff;
+       text-align: center;
+       .hrfont {
+        font-size:.8rem;
+        margin-top: .2rem;
+        display: block;
+       }
+       p {
+           font-size:.26rem;
+           
+       }
+      
+   }
+   .fontListBox::-webkit-scrollbar {
+        display: none;
+    }
+   .fontListX {
+    height: 1.8rem;
+    overflow: hidden;
+        >span {
+            float: left;
+            width: 1.44rem
+        }
+   }
+   .fontList {
+       height: 1.8rem;
+       display: flex;
+       justify-content: space-around;
+       background-color: #fff;
+       text-align: center;
+            .hrfont {
+                font-size:.8rem;
+                margin-top: .2rem;
+                display: block;
+            }
+            p {
+                font-size:.26rem;
+                
+            }
+       }
+    }
+    .click {
+           
+        .hrfont {
+             color: @lintblue !important;
+        }
+        p {
+             color: @lintblue !important;
+        }
+   
+    
+}
+
+
+.card {
+    width: 94%;
+    margin: 0 auto;
+    background-color: #fff;
+    margin: .2rem;
+    border-radius: .04rem;
+    padding: .2rem;
+    padding-top: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 1rem;
+    transition:height .3s;
+    .hr-right {
+        position: absolute;
+    }
+    .title {
+        position: relative;
+        height: 1rem;
+        line-height: 1rem;
+        font-size:.26rem;
+        padding-right: .3rem;
+        .circular {
+            height: 0.2rem;
+            width: .2rem;
+            position: absolute;
+            border-radius: 50%;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: @lintblue;
+            i {
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: .1rem;
+                height: .1rem;
+                border-radius: 50%;
+                background-color: #fff;
+            }
+        }
+        .name {
+            margin-left: .4rem;
+            font-size:.3rem;
+        }
+        .comp {
+            background-color: rgb(0, 190, 166);
+            padding: 0.1rem;
+            color: #fff;
+            line-height: 1;
+            border-radius: .05rem;
+            margin-top: .27rem;
+            margin-right: .2rem;
+        }
+        .detail {
+            font-size:.28rem;
+            color: rgb(41, 131, 190);
+        }
+    }
+    .content {
+        border-top: .3px solid rgb(240, 237, 240);
+        padding-top: .2rem;
+        padding-left: .4rem;
+        font-size:.26rem;
+        color: rgb(130, 130, 130);
+        line-height: .4rem;
+        padding-right: .3rem;
+        overflow: hidden;
+        >p {
+            overflow: hidden;    
+            display: -webkit-box;
+            text-overflow: ellipsis;   
+            -webkit-box-orient: vertical;  
+            -webkit-line-clamp: 2;  
+            word-break: break-all;
+        }
+    }
+}
+.height1 {
+    height: 3rem;
+    transition:height .3s;
+}
+
+.zhuanhui .hr-right {
+    transition:transform .3s;
+    
+}
+.zhuan .hr-right{
+    transition:transform .3s;
+    transform:rotate(90deg);
+}
+
+
